@@ -13,7 +13,7 @@
 
 body {
     margin: auto;
-    
+
 }
 .nav-header {
     margin: auto;
@@ -28,7 +28,31 @@ main {
     margin: auto;
 }
 h2 {
+    display: block;
+    text-align: center;
+    margin: auto;
     font-size: 30px;
+    margin-bottom: 50px;
+}
+h3 {
+    font-size: 30px;
+
+}
+.section-link {
+    text-align: center;
+    margin: 50px 0;
+}
+.section-link a{
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff133e;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.section-link a:hover{
+    background-color: #b91c1c;
+    transition: .3s;
 }
 .logo {
     display: flex;
@@ -38,7 +62,7 @@ h2 {
     display: inline-block;
 }
 .logo img {font-size: 0;
-    
+
 }
 .nav-list {
     margin-left: auto;
@@ -51,7 +75,7 @@ h2 {
 }
 .banner img {
     width: 100%;
-    
+
 }
 .nav {
     text-align: center;
@@ -96,21 +120,21 @@ h2 {
     margin: auto;
     width: 960px;
     /* display: block; */
-    
+
 }
 
 /* .teachers header h2 {
-   
+
 } */
 .teachers header h2 span {
     margin: 30px 0;
     display: block;
-   
+
 }
 .news-content {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 .news {
     margin: 100px 0;
@@ -143,7 +167,7 @@ h2 {
 }
 
 .news-footer {
-    
+
     text-align: center;
     margin-top: 30px;
 }
@@ -156,14 +180,14 @@ h2 {
 
     justify-content: space-between;
     margin-bottom: 50px;
-    
-    
+
+
 }
 
 
 .short-course.right , .short-course.left {
     width: 480px;
-    
+
 }
 .short-course.left {
     flex-direction: column;
@@ -171,7 +195,7 @@ h2 {
 
 .short-course.left h3{
     font-size: 30px;
-    
+
 }
 
 .short-course.left h3 span{
@@ -187,10 +211,10 @@ h2 {
     color: #fff;
 }
 .short-course.right h4{
-    
+
    font-size: 30px;
    /* margin-top: 100px; */
-   
+
 }
 .short-course.right .text, .short-course.right .text a {
     font-size: 16px;
@@ -260,7 +284,7 @@ section.class-info{
     font-size: 14px;
 }
 
-.teacher span {  
+.teacher span {
     margin-left: 0 auto;
 }
 .recent-course footer {
@@ -268,14 +292,12 @@ section.class-info{
     margin: 30px 0;
 }
 .recent-course footer a{
-    background-color: #fff;   
+    background-color: #fff;
 }
 /* 近期課程 end */
 
 /* 學習進度 start */
-.learning-path {
-    width: 960px;
-}
+
 .learning-path.text {
     display: block;
     margin: 30px 0;
@@ -297,11 +319,11 @@ section.class-info{
     border-radius: 10px;
     overflow: hidden;
     box-sizing: border-box;
-    
+
 }
 .learning-path.items.left div{
     text-align: center;
-    
+
 }
 .learning-path.items.left p {
     background-image: url("../images/background_images/learning-im_coding_it.png");
@@ -320,7 +342,7 @@ section.class-info{
         border-bottom: 1px solid #394150;
         font-weight: 700;
     }
-    
+
 .learning-path.items.left .bottom {
    padding: 20px;
    font-size: 1px;
@@ -347,11 +369,7 @@ section.class-info{
     justify-content: space-around;
 
 }
-h2, .banner{
-    display: block;
-    text-align: center;
-    margin-bottom: 50px;
-}
+
 .featured img {
     width: 100%;
     border-radius: 20px;
@@ -445,6 +463,10 @@ margin-bottom: 30px;
     background-color: #29303e;
     padding: 20px 0;
     width: 1280px;
-    
+
 }
+.nav-footer ul li {
+    margin-right: 30px;
+}
+
 /* 底部導覽 end */
