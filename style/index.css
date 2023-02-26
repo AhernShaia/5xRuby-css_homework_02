@@ -13,7 +13,7 @@
 
 body {
     margin: auto;
-    background-color: rgb(229, 190, 228);
+    
 }
 .nav-header {
     margin: auto;
@@ -379,21 +379,28 @@ h2, .banner{
 }
 .footer.featured.footer {
     margin-top: 30px;
+    margin-bottom: 150px;
 }
 /* 精選文章 end */
 
 /* 底部導覽 start */
 .nav-bottom {
+
+    padding: 50px 40px;
+    width: 1200px;
     background-color: #29303e;
     margin-top: 200px;
     display: flex;
+}
+.nav-bottom {
+    margin: auto;
 }
 .nav-bottom .address {
 flex-grow: 1;
 }
 .school-info {
     flex-grow: 2;
-    margin-top: 30px;
+
 }
 .address-info {
     margin-top: 10px;
@@ -431,4 +438,13 @@ margin-bottom: 30px;
     margin-top: 10px;
 }
 
+.nav-footer {
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: #29303e;
+    padding: 20px 0;
+    width: 1280px;
+    
+}
 /* 底部導覽 end */
