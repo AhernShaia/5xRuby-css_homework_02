@@ -1,9 +1,22 @@
 
 
+
       .container {
+        background-color: #f9fafb;
         width: 1200px;
-        padding: 20px;
+        /* padding: 0 20px 0 20px; */
         margin: 0 auto;
+      }
+      .container::before {
+        content: "";
+        position: relative;
+        width: 1200px;
+        background-color: #f9fafb;
+        clip-path: polygon(29% 71%, 0% 100%, 100% 100%);
+        display: block;
+        height: 300px;
+        top: -300px;
+        left: 0;
       }
       .header {
         width: 100%;

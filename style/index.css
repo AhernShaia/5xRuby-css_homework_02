@@ -13,6 +13,7 @@ body {
     margin: auto;
 }
 header.nav-header {
+    position: fixed;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 
 }
@@ -148,8 +149,9 @@ footer.section-link {
 
 
 .banner img {
-    margin-top: 30px;
+    margin-top: 108px;
     width: 1200px;
+    z-index: 5;
 }
 .nav {
     text-align: center;
@@ -355,7 +357,7 @@ section.class-info{
 
 /* 學習進度 start */
 .learning-path h3 {
-    margin-top: 150px;
+    margin-top: 250px;
 }
 .learning-path h3::after {
     content: "";
@@ -374,7 +376,7 @@ section.class-info{
 
 /* 學習路徑 start */
 
-.learning-path.container {
+.learning-path.warp {
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -413,6 +415,7 @@ section.class-info{
         color: #a0a6b1;
     }
 .class-bg {
+    z-index: -1;
     background-color: #29303e;
     padding: 00px 20px 10px;
     position: relative;
@@ -425,7 +428,7 @@ section.class-info{
     background-color: #29303e;
     width: 100%;
     height: 800px;
-    top: -800px;
+    top: -799px;
     left: 0;
 }
 .class-bg::after {
@@ -436,7 +439,7 @@ section.class-info{
     background-color: #29303e;
     width: 100%;
     height: 800px;
-    bottom: -800px;
+    bottom: -799px;
     left: 0;
 }
 .learning-path.items.left .bottom {
