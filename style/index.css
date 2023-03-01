@@ -67,10 +67,21 @@ h3 {
     background-color: #ff133e;
     padding: 10px 20px;
     border-radius: 5px;
+
 }
 
 footer.section-link {
-    margin: 50px 0 250px;
+    margin: 50px 0 0px;
+}
+.more-news {
+
+}
+.banner h2::after {
+    content: "";
+    display: block;
+    border: 1px solid #ff133e;
+    width: 40px;
+    margin: auto;
 }
 .section-link a:hover{
     background-color: #b91c1c;
@@ -194,45 +205,11 @@ footer.section-link {
     margin: 30px 0;
     display: block;
 }
-.news-content {
-    display: flex;
-    flex-wrap: wrap;
-}
-.news {
-    margin: 100px 0;
-}
-.news header{
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 30px;
-}
-.news-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.news-content  {
-    width: 500px;
-}
-.news-content .items {
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-}
-.news-content .items a{
-    margin: 0;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-.news-footer {
 
-    text-align: center;
-    margin-top: 30px;
-}
-.news-footer a{
-    font-size: 24px;
-}
+
+
+
+
 .short-course {
     display: flex;
     justify-content: space-between;
@@ -383,7 +360,21 @@ section.class-info{
     box-sizing: border-box;
     padding: 0;
     margin-bottom: 300px;
-
+    position: relative;
+}
+.learning-path.warp::after {
+    content: '';
+    box-sizing: border-box;
+      position: absolute;
+      display: block;
+      /* background: #001b37; */
+    border-top: 80px solid #f9fafb;
+    border-right: 800px solid hsl(127, 100%, 50%, 0);
+    /* border-bottom: 50px solid #ff00f7; */
+    border-left: 400px solid hsl(0, 0%, 2%, 0);
+    width: 1200px;
+    /* bottom: 0; */
+    top: 430px;
 }
 .learning-path.items {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -419,6 +410,7 @@ section.class-info{
     background-color: #29303e;
     padding: 00px 20px 10px;
     position: relative;
+    margin-top: 250px;
 }
 .class-bg::before {
     content: "";

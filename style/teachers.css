@@ -12,10 +12,11 @@
         position: relative;
         width: 1200px;
         background-color: #f9fafb;
-        clip-path: polygon(29% 71%, 0% 100%, 100% 100%);
+        clip-path: polygon(30% 38%, 0% 100%, 100% 100%);
+
         display: block;
-        height: 300px;
-        top: -300px;
+        height: 150px;
+        top: -150px;
         left: 0;
       }
       .header {
@@ -23,17 +24,27 @@
       }
       .title {
         margin: 0 auto;
-        width: 800px;
+        width: 700px;
       }
       .title {
-        text-align: center;
+        text-align: left;
         margin-bottom: 30px;
       }
-      .title h1 {
+      .container .title h2 {
         font-size: 30px;
+        text-align: left;
       }
       .title p {
         font-size: 20px;
+      }
+      .container .title h2::after {
+        content: "";
+        display: block;
+        border: #ff133e 2px solid;
+        /* height: 3px; */
+        /* background-color: #ff133e; */
+        width: 50px;
+        margin-top: 10px;
       }
 
       .teachers {
@@ -108,7 +119,7 @@
         display: block;
         position: relative;
         height: 1px;
-        width: 90%;
+        width: 80%;
         background-color: #e5e7eb;
         left: 110px;
         bottom: 18.5px;
@@ -128,3 +139,62 @@
       p {
         line-height: 2em;
       }
+      .news-content.items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+      }
+    .news-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .news {
+        margin: 100px 0;
+        background-color: #f9fafb;
+    }
+    .news header{
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+     .teachers.cards .news-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    article.news-content {
+      justify-content: space-between;
+    }
+    .news-container {
+      position: relative;
+    }
+    .news-container::after {
+      content: '';
+      position: absolute;
+      display: block;
+      background: #f9fafb;
+      height: 2000px;
+      width: 100%;
+      z-index: -5;
+      top: -200;
+    }
+
+
+    .news-content .items {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+    .news-content .items a{
+      width: 500px;
+        margin-bottom: auto;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+     .news-footer {
+
+        text-align: center;
+        margin-top: 30px;
+    }
+
