@@ -1,7 +1,6 @@
 
 
       .container {
-       
         width: 1200px;
         padding: 20px;
         margin: 0 auto;
@@ -30,6 +29,7 @@
       }
       .teachers.cards {
         /* 1200 / 2 - padding(20*2) - margin(20*2)*/
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 520px;
         border-radius: 10px;
         background-color: #fff;
@@ -54,17 +54,20 @@
     margin-right: 20px;
 
 }
-      /* .info h2, i {
-        font-size: 20px;
-      } */
       .info h2 {
         font-size: 20px;
         line-height: 100px;
         margin-bottom: 30px;
-        
+
       }
-      
-      .info a {    
+      .info p::after {
+        content: "";
+        display: block;
+        width: 40px;
+        border: 1px solid #ff133e;
+      }
+
+      .info a {
         color: #a0a6b1;
         margin-right: 5px;
       }
@@ -86,6 +89,16 @@
 
       .footer p {
         margin-bottom: 25px;
+      }
+      .footer p::after {
+        content: "";
+        display: block;
+        position: relative;
+        height: 1px;
+        width: 90%;
+        background-color: #e5e7eb;
+        left: 110px;
+        bottom: 18.5px;
       }
 
       .footer a {
