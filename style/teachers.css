@@ -18,6 +18,7 @@
         height: 150px;
         top: -150px;
         left: 0;
+        z-index: -1;
       }
       .header {
         width: 100%;
@@ -175,7 +176,7 @@
       background: #f9fafb;
       height: 2000px;
       width: 100%;
-      z-index: -5;
+      z-index: -3;
       top: -200;
     }
 

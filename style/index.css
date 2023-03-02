@@ -15,6 +15,7 @@ body {
 header.nav-header {
     position: fixed;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    z-index: 3;
 
 }
 .nav-header {
@@ -374,7 +375,8 @@ section.class-info{
     border-left: 400px solid hsl(0, 0%, 2%, 0);
     width: 1200px;
     /* bottom: 0; */
-    top: 430px;
+    top: 400px;
+    z-index: -3;
 }
 .learning-path.items {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -383,6 +385,7 @@ section.class-info{
     border-radius: 10px;
     overflow: hidden;
     box-sizing: border-box;
+    z-index: -2;
 }
 .learning-path.items.left div{
     text-align: center;
@@ -589,4 +592,7 @@ footer.nav-bottom {
 .institution p{
     color: #a0a6b1;
     line-height: 50px;
+}
+section.nav-header.content {
+    z-index: 3;
 }
